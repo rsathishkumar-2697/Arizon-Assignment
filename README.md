@@ -30,12 +30,22 @@ This is a responsive e-commerce frontend application built with React.js, Tailwi
 ## Project Structure
 
 src/
-├── components/       # Reusable UI components
-├── pages/            # Application pages
-├── context/          # React context providers
-├── styles/           # Global styles
-├── App.js            # Main application component
-└── index.js          # Application entry point
+├── components/ # Reusable UI components
+│ ├── Header/ # Navigation header
+│ ├── Footer/ # Page footer
+│ ├── ProductCard/ # Product display component
+│ ├── MiniCart/ # Shopping cart dropdown
+│ └── common/ # Shared UI elements
+├── pages/ # Application pages
+│ ├── Home/ # Home page
+│ ├── Products/ # Product listing
+│ └── Cart/ # Shopping cart
+├── context/ # State management
+│ └── CartContext.js # Cart state provider
+├── styles/ # Global styling
+│ └── globals.css # Tailwind imports
+├── App.js # Root component
+└── index.js # Entry point
 
 ## Dependencies
   React 18
