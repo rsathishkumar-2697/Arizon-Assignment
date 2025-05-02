@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="bg-red shadow-sm sticky top-0 z-10 header">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold">ShopEasy</Link>
+        <Link to="/" className="text-xl font-bold">Sathishkumar ShopEasy</Link>
         <nav className="flex items-center gap-6 justify-between">
           <Link to="/" className="hover:text-gray-600">Home</Link>
           <Link to="/products" className="hover:text-gray-600 ">Products</Link>
